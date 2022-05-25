@@ -11,12 +11,19 @@ import dagger.multibindings.IntoMap
 abstract class ViewModelModule {
 
 
+
+    /*
     @Binds
     abstract fun bindViewModelFactory(factory: ViewModelFactory) : ViewModelProvider.Factory
+
+     */
+
 
     @Binds
     @IntoMap
     @ViewModelKey(MainActivityViewModel::class)
     abstract fun splashViewModel(viewModel: MainActivityViewModel): ViewModel
+
+
 
 }
