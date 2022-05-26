@@ -1,10 +1,9 @@
-package com.example.simpledaggerapp
+package com.example.simpledaggerapp.ViewModels.General
 
 import androidx.lifecycle.ViewModel
-import androidx.lifecycle.ViewModelProvider
+import com.example.simpledaggerapp.ViewModels.Main.MainActivityViewModel
 import dagger.Binds
 import dagger.Module
-import dagger.Provides
 import dagger.multibindings.IntoMap
 
 @Module

@@ -1,4 +1,4 @@
-package com.example.simpledaggerapp
+package com.example.simpledaggerapp.ViewModels.General
 
 import androidx.lifecycle.ViewModel
 import dagger.MapKey

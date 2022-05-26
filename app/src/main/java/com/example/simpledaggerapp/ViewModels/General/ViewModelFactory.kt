@@ -1,6 +1,5 @@
-package com.example.simpledaggerapp
+package com.example.simpledaggerapp.ViewModels.General
 
-import android.view.View
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
 import javax.inject.Inject

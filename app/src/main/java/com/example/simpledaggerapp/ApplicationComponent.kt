@@ -1,8 +1,10 @@
 package com.example.simpledaggerapp
 
 import android.app.Application
-import android.content.Context
 import com.example.simpledaggerapp.APIs.RetrofitInstanceModule
+import com.example.simpledaggerapp.ViewModels.Main.MainActivityViewModel
+import com.example.simpledaggerapp.ViewModels.General.ViewModelModule
+import com.example.simpledaggerapp.ui.ActivityBuilder
 import dagger.BindsInstance
 import dagger.Component
 import dagger.android.AndroidInjector
